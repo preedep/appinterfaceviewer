@@ -1,3 +1,6 @@
+mod models;
+mod graphs;
+
 fn main() {
-    println!("Hello, world!");
+   pretty_env_logger::init();
 }

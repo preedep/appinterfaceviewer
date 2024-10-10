@@ -2,7 +2,7 @@ use std::collections::HashSet;
 use log::info;
 use petgraph::graph::{DiGraph, NodeIndex};
 use petgraph::visit::EdgeRef;
-use crate::models::appdata::{AppInformation, CommunicationMethod};
+use crate::models::app_data::{AppInformation, CommunicationMethod};
 
 // Recursive DFS function to find all routes that match the desired route
 // Function to start search from every node if start and goal are None
